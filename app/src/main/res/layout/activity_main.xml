@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:orientation="vertical"
+android:padding="10dp"
+android:gravity="end"
+android:background="@color/black"
+tools:context=".MainActivity">
+
+
+
+
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, Welcome to Emmanuels App!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+    android:background="@color/white"
+        app:layout_constraintVertical_bias="0.116"
+    android:layout_marginTop="10dp"
+    android:layout_gravity="center"/>
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="192dp"
+        android:layout_height="201dp"
+        app:srcCompat="@drawable/pic"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="160dp"
+        app:layout_constraintVertical_bias="0.36"
+        app:layout_constraintHorizontal_bias="0.494"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="334dp"
+        android:layout_height="178dp"
+        android:text="Hey there,\n My Name is Emmanuel Obasi and in this app you will learn a few things about me.\n \nSo of these things will be about my accomplishments and skills."
+        android:textColor="@color/white"
+        android:background="@color/cardview_dark_background"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="390dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+
+
+
+    <Button
+        android:id="@+id/secondBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click the button and learn more about me!"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896"
+        android:layout_marginTop="90dp"
+        android:layout_gravity="center"
+        android:background="@color/purple_200"/>
+
+
+</LinearLayout>

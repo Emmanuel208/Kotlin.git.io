@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="end"
+    android:background="@color/black"
+    tools:context=".MainActivity2">
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="212dp"
+        android:layout_height="34dp"
+        android:text="Achievements"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="160dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:background="@color/cardview_dark_background"/>
+
+    <TextView
+        android:id="@+id/achievement1"
+        android:layout_width="212dp"
+        android:layout_height="34dp"
+        android:text="Eduction:\n Student at Dorset College"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="160dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="left"
+        android:textColor="@color/white"
+        android:background="@color/cardview_dark_background"/>
+
+    <TextView
+        android:id="@+id/achievement2"
+        android:layout_width="212dp"
+        android:layout_height="34dp"
+        android:text="Certification\n Cisco certification in networking"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="160dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="left"
+        android:textColor="@color/white"
+        android:background="@color/cardview_dark_background"/>
+
+    <TextView
+        android:id="@+id/achievement3"
+        android:layout_width="212dp"
+        android:layout_height="34dp"
+        android:text="High School Graduate"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="160dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="left"
+        android:textColor="@color/white"
+        android:background="@color/cardview_dark_background"/>
+
+
+    <ImageView
+        android:id="@+id/dorsetLogo"
+        android:layout_width="70dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintVertical_bias="0.36"
+        app:srcCompat="@drawable/dorsetcollegelogo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="160dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginBottom="-70dp"/>
+
+
+    <ImageView
+        android:id="@+id/ciscoLogo"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="-70dp"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintVertical_bias="0.36"
+        app:srcCompat="@drawable/cisco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <ImageView
+        android:id="@+id/highschool"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="-120dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="-70dp"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintVertical_bias="0.36"
+        app:srcCompat="@drawable/highschool"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="542dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="400dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
